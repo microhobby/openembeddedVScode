@@ -4,7 +4,16 @@
   "icon": "oeLogo.png",
   "displayName": "Simple Bitbake Syntax Highlight",
   "description": "Simple Language Syntax Highlight for Open Embedded/Yocto 💩 files. No need of a lot of configuration and shit writting in the settings.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microhobby/openembedded.git"
+  },
+  "author": {
+		"name": "Matheus Castello",
+		"email": "matheus@castello.eng.br"
+	},
+	"license": "MIT",
   "engines": {
     "vscode": "^1.140.0"
   },
