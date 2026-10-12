@@ -1,0 +1,48 @@
+{
+  "name": "openembedded",
+  "publisher": "microhobby",
+  "icon": "oeLogo.png",
+  "displayName": "Simple Bitbake Syntax Highlight",
+  "description": "Simple Language Syntax Highlight for Open Embedded/Yocto 💩 files. No need of a lot of configuration and shit writting in the settings.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "bitbake",
+    "yocto",
+    "simple"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "bitbake",
+        "aliases": [
+          "Bitbake",
+          "bitbake"
+        ],
+        "extensions": [
+          ".bb",
+          ".bbappend",
+          ".bbclass",
+          ".inc",
+          ".conf"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "bitbake",
+        "scopeName": "",
+        "path": "./syntaxes/bitbake.tmLanguage.json"
+      }
+    ]
+  },
+  "scripts": {
+    "pack": "vsce package"
+  }
+}
