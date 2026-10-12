@@ -4,7 +4,7 @@
   "icon": "oeLogo.png",
   "displayName": "Simple Bitbake Syntax Highlight",
   "description": "Simple Language Syntax Highlight for Open Embedded/Yocto 💩 files. No need of a lot of configuration and shit writting in the settings.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/microhobby/openembedded.git"
@@ -46,7 +46,7 @@
     "grammars": [
       {
         "language": "bitbake",
-        "scopeName": "",
+        "scopeName": "source.bb",
         "path": "./syntaxes/bitbake.tmLanguage.json"
       }
     ]
